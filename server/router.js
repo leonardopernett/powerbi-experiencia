@@ -59,6 +59,8 @@ router.get('/api/cxm', async function (req, res) {
       url:'https://login.windows.net/276d3383-2ad4-4f95-b231-1392fb8a0014/oauth2/token',
       data:value
    })
+
+   /*  */
    const { access_token } = data
 
    try {
